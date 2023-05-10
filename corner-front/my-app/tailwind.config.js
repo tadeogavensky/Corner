@@ -1,12 +1,10 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-    purge: [],
-    darkMode: false, // or 'media' or 'class'
-    theme: {
-      extend: {},
+  content: ["./src/**/*.{html,js,ts,tsx}"],
+  theme: {
+    fontFamily: {
+      'feelo': 'feelo-font',
     },
-    variants: {
-      extend: {},
-    },
-    plugins: [],
-  }
-  
+  },
+  plugins: [],
+}
